@@ -4,6 +4,10 @@
 
 JobsMarketplace is a simple RESTful ASP.NET Core Web API for customers who post jobs and contractors who submit offers. The solution is intentionally kept simple but structured. Controllers handle HTTP requests, services contain business rules, and repositories isolate data access. This keeps the API easier to test and allows the persistence layer to be changed later without rewriting the application logic.
 
+ ## API Test
+ 
+  - ** API Collection:** [View Postman Collection](https://github.com/ggodin1981/JobsMarketplace/blob/main/JobsMarketplace.postman_collection.json)
+  
 ## 1.1 Assessment Coverage
 
 - Seed data: sample `Customers` and `Contractors` are inserted automatically on startup in [SeedData.cs]JobsMarketplace\JobsMarketplace.Api\Data\SeedData.cs
