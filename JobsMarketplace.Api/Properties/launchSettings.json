@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "JobsMarketplace.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:36060;http://localhost:36061"
+    }
+  }
+}

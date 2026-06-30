@@ -1,0 +1,114 @@
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:36060
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:36061
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: F:\Repo\JobsMarketplace\JobsMarketplace.Api
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.2562 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /health/live in 12.4033 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /health/ready in 396.1465 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.1125 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.0337 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.0193 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.04 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.0536 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.0336 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.0304 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/search in 379.0525 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /contractors/search in 378.9042 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/1 in 243.9555 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /contractors/1 in 245.2901 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /contractors/search in 44.8967 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/search in 11.1196 ms with status code 200.
+warn: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Slow request detected: POST /customers/1/jobs completed in 738.9622 ms with status code 201.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: POST /customers/1/jobs in 16.1113 ms with status code 201.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: POST /customers/1/jobs in 12.5926 ms with status code 201.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: POST /customers/1/jobs in 7.001 ms with status code 201.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: POST /customers/1/jobs in 11.8194 ms with status code 201.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: POST /jobs/8/offers in 211.321 ms with status code 201.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: POST /jobs/8/offers/4/accept in 309.6691 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /jobs/8 in 20.6802 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /jobs/8/offers in 43.6343 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/search in 5.8071 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /contractors/search in 4.4126 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.0473 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET / in 0.0874 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET / in 0.0172 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET / in 0.0844 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/search in 24.888 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /favicon.ico in 0.0373 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET / in 0.042 ms with status code 404.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/1 in 8.1933 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: POST /customers/1/jobs in 7.8047 ms with status code 201.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/1 in 1.0753 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /contractors/1 in 8.2409 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /jobs in 38.9426 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /jobs/1/offers in 3.9996 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /joboffers/1 in 20.6745 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /jobs/1/offers in 4.9896 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /jobs in 5.3094 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/search in 4.2253 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /health/ready in 53.8102 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /customers/search in 4.722 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /contractors/search in 3.2695 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /jobs in 9.1057 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: POST /customers/1/jobs in 9.9588 ms with status code 201.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /jobs in 29.9503 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /joboffers/1 in 2.7081 ms with status code 200.
+info: JobsMarketplace.Api.Middleware.RequestTimingMiddleware[0]
+      Request completed: GET /joboffers/3 in 3.1647 ms with status code 200.

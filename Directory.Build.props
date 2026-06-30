@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(TEMP)\JobsMarketplaceBuild\$(MSBuildProjectName)\obj\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>$(TEMP)\JobsMarketplaceBuild\$(MSBuildProjectName)\obj\</MSBuildProjectExtensionsPath>
+    <BaseOutputPath>$(TEMP)\JobsMarketplaceBuild\$(MSBuildProjectName)\bin\</BaseOutputPath>
+  </PropertyGroup>
+</Project>
+

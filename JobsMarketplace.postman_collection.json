@@ -1,0 +1,299 @@
+{
+  "info": {
+    "_postman_id": "8b3f80f0-8db0-4db4-a7cb-0f7f84172f62",
+    "name": "JobsMarketplace",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Postman collection for testing the JobsMarketplace assessment API."
+  },
+  "item": [
+    {
+      "name": "Health Ready",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health/ready",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "health",
+            "ready"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Search Customers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/customers/search?query=Sm&page=1&pageSize=20",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "customers",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "query",
+              "value": "Sm"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "pageSize",
+              "value": "20"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Customer By Id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/customers/1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "customers",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Search Contractors",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/contractors/search?query=Build&page=1&pageSize=20",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "contractors",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "query",
+              "value": "Build"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "pageSize",
+              "value": "20"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Contractor By Id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/contractors/1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "contractors",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "List Jobs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/jobs?page=1&pageSize=20",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "jobs"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "pageSize",
+              "value": "20"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Job",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"startDate\": \"2026-08-15T00:00:00Z\",\n  \"dueDate\": \"2026-08-25T00:00:00Z\",\n  \"budget\": 5000,\n  \"description\": \"Office renovation painting\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/customers/1/jobs",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "customers",
+            "1",
+            "jobs"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Job By Id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/jobs/{{jobId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "jobs",
+            "{{jobId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Job Offer",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"contractorId\": 1,\n  \"price\": 4500\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/jobs/{{jobId}}/offers",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "jobs",
+            "{{jobId}}",
+            "offers"
+          ]
+        }
+      }
+    },
+    {
+      "name": "List Job Offers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/jobs/{{jobId}}/offers",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "jobs",
+            "{{jobId}}",
+            "offers"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Job Offer By Id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/joboffers/{{offerId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "joboffers",
+            "{{offerId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Accept Job Offer",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"customerId\": 1\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/jobs/{{jobId}}/offers/{{offerId}}/accept",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "jobs",
+            "{{jobId}}",
+            "offers",
+            "{{offerId}}",
+            "accept"
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://localhost:36060"
+    },
+    {
+      "key": "jobId",
+      "value": "1"
+    },
+    {
+      "key": "offerId",
+      "value": "1"
+    }
+  ]
+}
+
